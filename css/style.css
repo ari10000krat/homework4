@@ -179,23 +179,12 @@ textarea::-webkit-textarea-placeholder
       color: white; 
     }
 
-.pressed-button {
-    text-decoration: none;
-    display: inline-block;
-    padding: 12px 40px;
-    border-radius: 30px;
-    background: linear-gradient(45deg, rgb(62, 81, 150), rgb(238, 83, 124));
-    background-position: 100% 0;
-    
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-    color: white;
-  }
-.pressed-button:hover{
-    background: linear-gradient(45deg, rgb(238, 83, 124), rgb(62, 81, 150));
+.btn{
+    width: 100%;
 }
-
+#validationTextarea{
+    
+}
 .footer{
     background-color: #efefef;
     padding: 1px 0px;
